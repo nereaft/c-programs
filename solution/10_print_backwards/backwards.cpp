@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]){
-const char *frase="The world is a vampire.";
+const char *frase=" The world is a vampire.";
 const char *comienzo= frase;
 const char *final= frase;
 do{
