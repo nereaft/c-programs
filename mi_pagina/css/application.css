@@ -1,0 +1,30 @@
+div{ border: 1px solid rgb(192,192,192);
+}
+
+#page{
+width: 800px;
+margin:0 auto 0 auto;
+}
+
+#logo{
+}
+
+ul#main li{
+    display: inline;
+margin: 0 3ex 0 3ex; 
+}
+
+ul#main{
+    list-style-type: none;
+
+}
+
+ul#main a{
+text-decoration: none;
+padding: 0.5ex 1ex 0.5ex 1ex
+}
+
+table#blog{
+border:none;
+float:right;
+}
