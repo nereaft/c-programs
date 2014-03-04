@@ -3,16 +3,15 @@
 
 #define N 0x10
 
-int elevar(int base, int exponente){
-int resultado;
+int power(int base, int exponent){
 
 }
-
+void matriz(int list)
 
 int main(int argc, char *argv[]){
 int expo = atoi (argv[1]);
 
-elevar(N, expo)
+
 
 
 

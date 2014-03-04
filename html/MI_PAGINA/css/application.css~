@@ -1,0 +1,140 @@
+div {
+border: 1px solid gray;
+}
+
+#page {
+margin: 0 9ex 0 9ex;
+width: 1019.50px;
+height: 2272.50px;
+}
+
+#header{
+height: 115px;
+background-image: url('../artwork/fondo_logo.png');
+}
+
+#menu{
+margin:2ex 4ex 5ex 5ex;
+float: right; 
+font-size:14px;
+font-family:Arial;
+background-color: rgb(226,226,226);
+font-weight:bold;
+display inline-block;
+width: 220px;
+height: 1122px;
+}
+
+.Product {
+width: 310px;
+height: 255px;
+display: inline-block;
+}
+
+.Text{
+color:rgb(255,255,255);
+font-size:14px;
+font-family:Arial;
+font-weight:bold; 
+}
+
+.Text h6{
+color:rgb(211,190,127);
+font-size:14px;
+font-family:Arial;
+font-weight:bold; 
+}
+
+#menu h3{
+font-size:14px;
+font-family:Arial;
+font-weight:bold;
+background-color: black;
+color: white;
+border-radius: 241px;
+}
+
+#products{
+display: inline-block;
+height:832px;
+width: 700px;
+}
+
+.logo{
+height:111.50px;
+}
+
+.main{ 
+background-color: rgb(14,61,79);
+list-style-type: none;  
+height:61.50px;
+}
+
+
+.clean{
+height:260.50px;
+}
+
+.main li{
+font-size: 20px;
+font-family:Arial; 
+font-weight:bold;
+background-color: rgb(14,61,79);
+color: rgb(255,255,255);
+display: inline;
+padding:0.20ex 0.45ex 0.25ex 0.45ex;
+}
+
+.Product{
+margin:2ex 2ex 2ex 2ex;
+font-family:Arial;
+font-size: 14px;
+font-weight:bold;
+}
+.Detail{
+margin-left:15px;
+font-size: 14px;
+font-family:Arial;
+font-weight:bold;
+color:black;
+width: 310px;
+height: 43px;
+background-color: rgb(226,226,226);
+}
+
+.Detail a{
+color:black;
+text-decoration:none;
+}
+
+.main a{
+color: rgb(255,255,255);
+text-decoration: none;
+
+}
+
+.main a:hover {
+background-color: rgb(37,81,98);
+}
+
+#menu h5{
+font-family:Verdana;
+font-size: 10px;
+font-weight:Regular;
+color: red;
+}
+
+#footer{
+height: 617px;
+}
+.title{
+height:86px;
+}
+
+.text{
+height:528px;
+width:320px;
+display: inline-block;
+background-color: rgb(14,61,79);
+}
+
