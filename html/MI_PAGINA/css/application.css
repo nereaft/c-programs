@@ -1,3 +1,6 @@
+div{
+border: 1px solid black;
+}
 #page {
 margin: 0ex 9ex 0ex 9ex;
 width: 1019.50px;
@@ -11,7 +14,7 @@ background-image: url('../artwork/fondo_logo.png');
 .clean{
 height: 260.50px;
 border: 1px solid white;
-background-image: url('../artwork/fondo_c.png');
+background-image:;
 }
 
 .clean h2{
@@ -39,10 +42,9 @@ color: rgb(127,127,127);
 }
 
 .margin{
+background-color:rgb(211,190,127);
 height: 7px;
-background-color: rgb(211,190,127);
 }
-
 .black{
 color: black;
 }
@@ -58,14 +60,47 @@ display inline-block;
 width: 230px;
 height: 1200px;
 }
-
 .Product {
 border: 1px solid gray;
 width: 310px;
-height: 264px;
+height: 260px;
 display: inline-block;
 }
+.pest{
+display: inline-block;
+}
+.opcion{
+border: 1px solid white;
+background-color: rgb(14,61,79);
+height:170px;
+}
 
+.opcion h5{
+padding: 0 0 0 2ex;
+font-size: 14px;
+font-family: Arial;
+font-weight:bold;
+color: rgb(211,190,127);
+}
+.opcion h6{
+font-size: 10px;
+font-family: Verdana;
+font-weight:regular;
+padding: 0ex 0ex 0ex 85ex;
+color: white;
+}
+.best{
+border: 1px solid white;
+background-color: rgb(14,61,79);
+color: white;
+padding: 1ex 0 0 3ex;
+font-size: 14px;
+font-family:Arial;
+font-weight:bold;
+display: inline-block;
+height:30px;
+width:250px;
+}
 .Text{
 color:rgb(255,255,255);
 font-size:14px;
@@ -99,7 +134,7 @@ margin: 4ex 1ex 1ex 2ex;
 #products{
 margin: 0 2ex 1ex 0;
 display: inline-block;
-height:1100px;
+height:1150px;
 width: 700px;
 }
 
