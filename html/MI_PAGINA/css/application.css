@@ -1,13 +1,51 @@
 #page {
-margin: 0 9ex 0 9ex;
+margin: 0ex 9ex 0ex 9ex;
 width: 1019.50px;
 height: 2700.50px;
 }
+
 #header{
 height: 115px;
 background-image: url('../artwork/fondo_logo.png');
 }
+.clean{
+height: 260.50px;
+border: 1px solid white;
+background-image: url('../artwork/fondo_c.png');
+}
 
+.clean h2{
+padding: 0ex 0ex 0ex 3ex;
+font-size:40px;
+font-family:Arial;
+font-weight:bold;
+color: rgb(14,61,79);
+}
+
+.clean h3{
+padding: 0ex 0ex 0ex 6ex;
+font-size:20px;
+font-family:Arial;  
+font-weight:bold;
+color: red;
+}
+
+.clean h4{
+padding: 0ex 0ex 0ex 7ex;
+font-size:18px;
+font-family:Arial;
+font-weight:bold;
+color: rgb(127,127,127);
+}
+
+.margin{
+height: 7px;
+background-color: rgb(211,190,127);
+}
+
+.black{
+color: black;
+}
 #menu{
 padding: 0 1.5ex 0 2ex;
 margin: 6ex 4ex 3ex 0;
@@ -72,12 +110,6 @@ height:111.50px;
 padding: 1ex 3ex 2ex 1ex;
 background-color: rgb(14,61,79);
 list-style-type: none;  
-height:61.50px;
-}
-
-
-.clean{
-height:260.50px;
 }
 
 .main li{
@@ -119,6 +151,7 @@ text-decoration: none;
 }
 
 .main a:hover {
+padding: 1.5ex 1.5ex 1.5ex 1.5ex;
 background-color: rgb(37,81,98);
 }
 
