@@ -14,7 +14,7 @@ background-image: url('../artwork/fondo_logo.png');
 .clean{
 height: 260.50px;
 border: 1px solid white;
-background-image:;
+background-image:url('../artwork/fondo_c.png');
 }
 
 .clean h2{
@@ -24,7 +24,13 @@ font-family:Arial;
 font-weight:bold;
 color: rgb(14,61,79);
 }
+.pag{
+display: inline;
+}
 
+#cant{
+display: inline-block;
+}
 .clean h3{
 padding: 0ex 0ex 0ex 6ex;
 font-size:20px;
@@ -40,7 +46,9 @@ font-family:Arial;
 font-weight:bold;
 color: rgb(127,127,127);
 }
-
+.arrow{
+float:right;
+}
 .margin{
 background-color:rgb(211,190,127);
 height: 7px;
@@ -86,8 +94,20 @@ color: rgb(211,190,127);
 font-size: 10px;
 font-family: Verdana;
 font-weight:regular;
-padding: 0ex 0ex 0ex 85ex;
+padding: 0ex 0ex 0ex 75ex;
 color: white;
+}
+.last{
+color: white;
+border: 1px solid white;
+background-color: rgb(97,179,181);
+padding: 1ex 0 0 3ex;
+font-size: 14px;
+font-family:Arial;
+font-weight:bold;
+display: inline-block;
+height:30px;
+width:250px;
 }
 .best{
 border: 1px solid white;
@@ -165,12 +185,12 @@ font-weight:bold;
 }
 .Detail{
 border: 1px solid gray;
-padding: 0.5ex 2ex 0 2ex;
+padding: 2.5ex 2ex 0 2ex;
 font-size: 14px;
 font-family:Arial;
 font-weight:bold;
 color:black;
-height: 45px;
+height: 27px;
 background-color: rgb(226,226,226);
 }
 
