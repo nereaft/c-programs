@@ -1,10 +1,8 @@
-div{
-border: 1px solid black;
-}
+
 #page {
 margin: 0ex 9ex 0ex 9ex;
 width: 1019.50px;
-height: 2700.50px;
+height: 2650.50px;
 }
 
 #header{
@@ -149,8 +147,8 @@ border-radius: 230px;
 .area{
 width: 650px;
 margin: 4ex 1ex 1ex 2ex;
-
 }
+
 #products{
 margin: 0 2ex 1ex 0;
 display: inline-block;
@@ -219,7 +217,7 @@ color: red;
 
 #footer{
 height:850px;
-margin: 23ex 0 0 0;
+margin: 5ex 0 0 0;
 background-color: rgb(14,61,79);
 }
 .title{
@@ -238,7 +236,10 @@ display: inline-block;
 padding: 0 0 0 0;
 background-color: rgb(14,61,79);
 }
-
+.number a{
+text-decoration: none;
+color: white;
+}
 .number li{
 padding:2ex 2ex 2ex 2ex;
 font-family: Arial;
@@ -248,4 +249,11 @@ color:white;
 display:inline-block;
 background-color: rgb(14,61,98);
 
+}
+
+.number li:hover{
+background-color: grey;
+}
+li.color{
+    background-color: rgb(112,112,112);
 }
