@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
 	for(int fila=0; fila<altura; fila++){
 		for(int colm=0; colm<altura; colm++){
 			if(fila==0 || colm ==0 || fila ==altura-1 || colm == altura-1){
-				printf("+");
+				printf("*");
 			}else{
 				printf(" ");
 			}
