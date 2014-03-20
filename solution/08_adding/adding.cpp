@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>  
 
 double calculo(double operador_01,double operador_02){
