@@ -10,9 +10,17 @@ double calculo(double operador_01,double operador_02){
 
 int main (int argc,char *argv[]){
 
-    double numero1 = atoi (argv[1]);
-    double numero2 = atoi (argv[2]);
-  
+int num_cantidad;
+
+
+    printf("Cantidad de numeros:  ");
+    scanf(" %i", &num_cantidad);
+   
+for(int repeticion = 0; repeticion < num_cantidad; repeticion++){
+	printf("Introduce numero:   ");
+	scanf(" %.2lf",     
+
+    datos();  
     calculo(numero1,numero2);
     printf("\n");
 
