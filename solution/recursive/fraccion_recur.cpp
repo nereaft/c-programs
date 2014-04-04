@@ -1,53 +1,49 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define NUM 10
 
+int factorial(int NUM){
 
-int factorial (int cantidad){
+    int resultado = 1;
 
-    int resultado = 0;
-
-    for(int contador = 1; contador < cantidad; contador++);
-    resultado *= contador;
+    for(int contador = 1; contador < NUM; contador++)
+	resultado *= contador;
 
     return resultado;
 
 }
 
 
-double calculo(int cantidad){
+double calculo(int NUM){
 
-    if(cantidad = 0)
+    printf("%i\n", NUM);
+    if(NUM == 0)
 	return 1;
 
-    if(cantidad < 0)
-	    return 0;
-    
-    if(cantidad > 0)
-	    return 1 / factorial(cantidad) + calculo(cantidad-1);
+    if(NUM < 0)
+	return 0;
+
+    if(NUM > 0)
+	return 1. / factorial(NUM) + calculo(NUM-1);
 
 }
 
 
 
 
-int  main(int argc, char *argv[]){
+int  main(int  argc, char *argv[]){
 
-    int cantidad ;
- /*Cojo un numero le hago el inverso
-    y se lo sumo */
+    /*Cojo un n umero le hago el inverso
+       y se lo sumo */
+    calculo(NUM);
 
-    printf(" Introduce el numero para la recursividad del factorial: ");
-    scanf(" %i ", &cantidad);
-
-    calculo(cantidad);
-
-    printf(" %.2lf", calculo(cantidad));
+    printf(" %.2lf", calculo(NUM));
 
     printf(" \n");
 
     return EXIT_SUCCESS;
-}
+} 
 
 
 
