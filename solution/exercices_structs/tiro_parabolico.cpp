@@ -1,47 +1,47 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define Pto_inic 5
-
-
-typedef structs{
-    double punto;
-    double velocidad;
-    double aceleracion;
-}Coordenadas;
-
-typedef structs{
+typedef struct{ 
     double x;
     double y;
-}Posicion;
+}Coordenadas;
 
+void muestra(Coordenadas posicion, Coordenadas aceleracion, Coordenadas velocidad){
 
-
-void muestra(){/* Muestra por pantalla la x y la y de cada vuelta */
-    /*Termina cuando y es 0 o menor de 0 */
-
+    while(posicion.y >= 0){
+	velocidad.x += aceleracion.x;
+	velocidad.y += aceleracion.y; 	
+	posicion.x += velocidad.x;
+	posicion.y += velocidad.y;
+	printf(" X:%lf Vx:%lf \nY:%lf Vy:%lf ", posicion.x, velocidad.x, posicion.y, velocidad.y);
+    printf("\n");
+    }
 
 }
 
 
 
+int main(int argc,  char *argv[]){
 
-int main(int argc, char *argv[]){
+    Coordenadas posicion={5,6},
+	   velocidad,
+	   aceleracion={0,-10};
 
-    int veloc_inic;
+    printf("Velocidad inicial: \n x:");
+    scanf(" %lf", &velocidad.x);
+    printf(" y: ");
+    scanf(" %lf", &velocidad.y);
 
-    printf("Velocidad inicial: \n");
-    scanf(" %.2lf", &veloc_inic);
+    /*Ecuaciones :
+      s += v
+      v += a
+      vx += ax 
+      vy += ay 
+      x += vx 
+      y += vy 
+     */
 
-    calculo(veloc_inic, );
-
-    
-    
-    
-    
-    muestra();
-
-
+    muestra(posicion,aceleracion,velocidad);
 
     printf("\n");
     return EXIT_SUCCESS;
